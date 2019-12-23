@@ -27,6 +27,7 @@ class FeedController extends Controller
         foreach ($towns as $town) {
             $admin = $town->admin;
             foreach ($admin->projects as $project) {
+                $project->load('comments');
                 $projects[] = $project;
             }
             foreach ($admin->surveys as $survey) {

@@ -28,6 +28,12 @@ Route::group(['middleware' => 'auth:api'], function()
 
     Route::get('propositions','API\PropositionController@index');
 
+    Route::post('comments','API\CommentController@store');
+
+    Route::patch('comments/update','API\CommentController@update');
+
+    Route::delete('comments/{id}/delete','API\CommentController@delete');
+
 });
 
 

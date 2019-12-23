@@ -18,9 +18,9 @@ class AddRelationshipFieldsToCommentsTable extends Migration
 
             $table->foreign('user_id')->references('id')->on('users');
 
-            $table->unsignedBigInteger('proposition_id');
+            $table->unsignedBigInteger('project_id');
 
-            $table->foreign('proposition_id')->references('id')->on('propositions');
+            $table->foreign('project_id')->references('id')->on('projects');
         });
     }
 
