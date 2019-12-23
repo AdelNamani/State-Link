@@ -9,9 +9,13 @@ use Illuminate\Support\Facades\Auth;
 
 class VoteController extends Controller
 {
+    /**
+     * @param Request $request
+     * Store a vote
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function store(Request $request){
         $request->validate([
-            'user_id' => 'required',
             'choice_id' => 'required',
         ]);
 

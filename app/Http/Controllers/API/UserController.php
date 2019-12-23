@@ -14,17 +14,30 @@ class UserController extends Controller
 {
     public $successStatus = 200;
 
+    /**
+     * Login the user with his email & password
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function login()
     {
         if (Auth::attempt(['email' => request('email'), 'password' => request('password')])) {
             $user = Auth::user();
             $success['token'] = $user->createToken('MyApp')->accessToken;
-            return response()->json(['success' => $success], $this->successStatus);
+            return response()->json(
+                [
+                    'data' => ['token' => $success['token']],
+                    'message'=>'success'
+                ], 200);
         } else {
             return response()->json(['data'=>null,'message' => 'Unauthorised'], 401);
         }
     }
 
+    /**
+     * @param Request $request
+     * Register the user
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function register(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -45,6 +58,10 @@ class UserController extends Controller
         return response()->json(['data' => $success,'message'=>'success'], $this->successStatus);
     }
 
+    /**
+     * Get details of the connected user
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function details()
     {
         $user = Auth::user();

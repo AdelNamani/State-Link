@@ -8,7 +8,15 @@ use Illuminate\Support\Facades\Auth;
 
 class FeedController extends Controller
 {
-    public function index(){
+
+    /**
+     * Return the feed for the authenticated user
+     * Feed contains projects + survey for the user's wilaya
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function index()
+    {
         $projects = [];
         $surveys = [];
 
@@ -16,13 +24,20 @@ class FeedController extends Controller
         $wilaya = $user->town->wilaya;
         $towns = $wilaya->towns;
 
-        foreach ($towns as $town){
+        foreach ($towns as $town) {
             $admin = $town->admin;
-            foreach ($admin->projects as $project){
+            foreach ($admin->projects as $project) {
                 $projects[] = $project;
             }
-            foreach ($admin->surveys as $survey){
+            foreach ($admin->surveys as $survey) {
+                $total_votes = 0;
                 $survey->load('choices');
+                foreach ($survey->choices as $choice) {
+                    $choice->load('votes');
+                    $choice->count_votes = count($choice->votes);
+                    $total_votes += $choice->count_votes;
+                }
+                $survey->total_votes = $total_votes;
                 $surveys[] = $survey;
             }
         }
@@ -30,20 +45,19 @@ class FeedController extends Controller
         $surveys = collect($surveys);
         $projects = collect($projects);
 
-        $projects->map(function($project,$key){
+        $projects->map(function ($project, $key) {
             $project['type'] = 'project';
         });
 
-        $surveys->map(function($survey,$key){
+        $surveys->map(function ($survey, $key) {
             $survey['type'] = 'survey';
         });
 
         $projects_surveys = $projects->merge($surveys);
 
-//        $data = ['projects'=>$projects,'surveys'=>$surveys];
         $data = ['projects_surveys' => $projects_surveys];
         $message = 'success';
 
-        return response()->json(['data'=>$data,'message'=>$message],200);
+        return response()->json(['data' => $data, 'message' => $message], 200);
     }
 }
