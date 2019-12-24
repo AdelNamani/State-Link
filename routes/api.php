@@ -34,6 +34,8 @@ Route::group(['middleware' => 'auth:api'], function()
 
     Route::delete('comments/{id}/delete','API\CommentController@delete');
 
+    Route::get('satisfactions','API\ProjectController@satisfactions');
+
 });
 
 

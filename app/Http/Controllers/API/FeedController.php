@@ -27,18 +27,18 @@ class FeedController extends Controller
         foreach ($towns as $town) {
             $admin = $town->admin;
             foreach ($admin->projects as $project) {
-                $project->load('comments');
+                //$project->load('comments');
                 $projects[] = $project;
             }
             foreach ($admin->surveys as $survey) {
-                $total_votes = 0;
-                $survey->load('choices');
-                foreach ($survey->choices as $choice) {
-                    $choice->load('votes');
-                    $choice->count_votes = count($choice->votes);
-                    $total_votes += $choice->count_votes;
-                }
-                $survey->total_votes = $total_votes;
+//                $total_votes = 0;
+//                //$survey->load('choices');
+//                foreach ($survey->choices as $choice) {
+//                    //$choice->load('votes');
+//                    $choice->count_votes = count($choice->votes);
+//                    $total_votes += $choice->count_votes;
+//                }
+//                $survey->total_votes = $total_votes;
                 $surveys[] = $survey;
             }
         }
@@ -52,6 +52,9 @@ class FeedController extends Controller
 
         $surveys->map(function ($survey, $key) {
             $survey['type'] = 'survey';
+            $survey['budget'] = null;
+            $survey['start_date'] = null;
+            $survey['duration'] = null;
         });
 
         $projects_surveys = $projects->merge($surveys);
@@ -59,6 +62,6 @@ class FeedController extends Controller
         $data = ['projects_surveys' => $projects_surveys];
         $message = 'success';
 
-        return response()->json(['data' => $data, 'message' => $message], 200);
+        return response()->json($projects_surveys, 200);
     }
 }

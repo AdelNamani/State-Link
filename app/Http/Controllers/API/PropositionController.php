@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\API;
 
+use App\Category;
 use App\Proposition;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -49,15 +50,60 @@ class PropositionController extends Controller
         $proposition = new Proposition();
         $proposition->content = $request['content'];
         $proposition->user_id = Auth::id();
-
-        $client = new Client();
-        $result = $client->post(env('AZURE_ENDPOINT').'/text/analytics/v2.1/keyPhrases', [
-            'form_params' => [
-                'sample-form-data' => 'value'
+        $documents =['documents' => [
+            [
+                'id' => 1,
+                'language' => 'fr',
+                'text'=>$proposition->content
             ]
+        ]];
+        $documents = json_encode($documents);
+        //dd($documents);
+        $client = new Client();
+        $result = $client->request('POST',env('AZURE_ENDPOINT').'/text/analytics/v2.1/keyPhrases',
+            [
+                'headers' => [
+                    'Ocp-Apim-Subscription-Key' => env('AZURE_APIKEY'),
+                    'Content-Type'     => 'application/json',
+                    'Accept'      => 'application/json'
+                ],
+                'body' => $documents
         ]);
-        $proposition->category_id = null; //TODO:AZ
-        $proposition->save();
-        return response()->json(['message'=>'success'],200);
+        if($result->getStatusCode() == 200){
+            $documents = json_decode($result->getBody()->getContents());
+            $keyPhrases = ($documents->documents[0])->keyPhrases;
+            $new_keyPhrases = [];
+            foreach ($keyPhrases as $k){
+                if(substr($k, -1) == "s"){
+                    $new_keyPhrases[] = substr_replace($k ,"",-1);
+                }
+            }
+            $keyPhrases = array_merge($new_keyPhrases,$keyPhrases);
+            $categories = Category::all();
+            foreach ($categories as $category){
+                $score = 0;
+                $category_keywords = json_decode($category->keywords);
+                foreach ($keyPhrases as $kp)
+                    foreach ($category_keywords as $kd)
+                        if (strtolower($kd) === strtolower($kp)) $score++;
+                $category->score = $score;
+            }
+            $categories = $categories->toArray();
+            dd($categories);
+            $id = $categories[0]['id'];
+            $max_score = $categories[0]['score'];
+            foreach ($categories as $category){
+                if($category['score'] > $max_score) {
+                    $id = $category['id'];
+                    $max_score = $category['score'];
+                }
+            }
+
+            $proposition->category_id = $id;
+            $proposition->save();
+            return response()->json(['message'=>'success'],200);
+        }else{
+            return response()->json(['message'=>'error! Check your internet connection.'],200);
+        }
     }
 }
