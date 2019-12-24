@@ -2,18 +2,305 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be565fb5-370f-45a6-918d-d3635138c4c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.orange.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.dark.red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.orange.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dore.light.red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/_dore.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.dark.blue.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.dark.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.dark.orange.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.dark.purple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.dark.red.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.light.blue.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.light.green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.light.orange.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.light.purple.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/sass/themes/dore.light.red.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap-float-label.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap-stars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap-tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/component-custom-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/datatables.responsive.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/jquery.contextMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/select2-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/vendor/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/iconsmind/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/iconsmind/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/iconsmind/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/iconsmind/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/iconsmind/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/balloon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bebinca-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/big-buck-bunny-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/card-thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/card-thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/card-thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/card-thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cheesecake-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/chocolate-cake-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/coconut-cake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cremeschnitte-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fat-rascal-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/financier-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fruitcake-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/genoise-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gingerbread-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/goose-breast-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/application-chat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/application-library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/application-survey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/application-todo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/blog-thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/blog-thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/blog-thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/blog-thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/blog-thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/careers-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/dark-background-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/dark-background-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/feature-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/feature-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/feature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-blue-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-green-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-orange-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-purple-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-red-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/footer-background-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-blue-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-green-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-orange-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-purple-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-red-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-background-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-hero-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/home-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/logo-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-blue-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-green-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-orange-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-purple-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-red-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/sub-background-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/subpage-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/subpage-video-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/team-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/values-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/white-background-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/landing-page/white-background-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/login-balloon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/magdalena-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/marble-cake-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/menu-single.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/merveilleux-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/napoleonshat-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/notification-thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/notification-thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/notification-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pargin-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/parkin-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/petit-gateau-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/plane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/profile-pic-l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/salzburger-nockerl-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/souffle-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/streuselkuchen-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/tea-loaf-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dore-plugins/select.from.library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dore.script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dore.scripts.landingpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.single.theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/Sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/bootstrap-notify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/bootstrap-tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/chartjs-plugin-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/ckeditor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/kn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/ckeditor5-build-classic/translations/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/jquery.barrating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/jquery.contextMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/landing-page/headroom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/landing-page/jQuery.headroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/landing-page/jquery.autoellipsis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/landing-page/jquery.scrollTo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/mousetrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/mousetrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/quill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/typeahead.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vendor/videojs-youtube.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/doreAdmin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/doreNavbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/doreSidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/projects.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/propositions.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChoiceController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MinistryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PropositionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReactionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SurveyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TownController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/VoteController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WilayaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Proposition.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Proposition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,8 +440,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PhpstormProjects\bemyapp\resources\views\partials" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PhpstormProjects\bemyapp\resources\views\layouts" />
+      <recent name="C:\Users\DELL\PhpstormProjects\bemyapp\public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +482,7 @@
       <updated>1577068969635</updated>
       <workItem from="1577068970835" duration="18351000" />
       <workItem from="1577099260743" duration="32801000" />
-      <workItem from="1577149181807" duration="1280000" />
+      <workItem from="1577149181807" duration="12245000" />
     </task>
     <servers />
   </component>
