@@ -1,72 +1,37 @@
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About StateLink
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+An application allowing the Algerian citizen to engage in the development of the various sectors of the society through a sharing and a formulation of their problems and their needs which will be then consultable by the public authorities (Town hall, Wilaya, Ministry).
+The state uses this to justify its choices and its investments
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h3>First, there are two types of users of the solution:</h3>
+<h4>Algerian citizen</h4>
+It represents the user who will express their problems and needs through publications which will be listed by location (location / Wilaya) and by category and / or field (health, education, road infrastructure, etc.). Also, these publications must be classified according to the authority which can take them into consideration (problems for the town hall, the wilaya or the ministry concerned).
+<h4>Public authority</h4>
 
-## Learning Laravel
+This type of account refers to the representatives of the authorities who will have the role of seeing the posts of the citizens, of reading them and taking them into consideration for the purpose of solving the various problems through projects and initiatives which will be published through the application. .
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Functional Specifications
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+• The citizen can publish posts relating to his problems according to the wilaya (or a certain location)
 
-## Laravel Sponsors
+• The citizen lists his positions according to a field (health, education, public works, etc.)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+• Citizen publications are listed according to the authority that should be concerned (done automatically by the application, Natural Language Processing)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+• Display a publication feed by region for the citizen
 
-## Contributing
+• Apply filters on publications (Region / location, category / domain, relevant authority)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+• Display in a tab the relevant details which are stipulated in the current finance law (list of expenses and revenues of the state for the coming year, in other words the state budget).
 
-## Security Vulnerabilities
+• The authorities will have access to citizens' publications grouped according to their similarity, category and also location (location of citizens who have published these).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+• The authorities will be able to see the level of satisfaction of citizens by a project, this average is calculated automatically by reading citizens comments and applying sentimental analysis on them. 
 
-## License
+• The authorities (town hall, wilaya or ministries) can publish polls to collect citizens' opinions.
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+• Publications of state projects and initiatives for citizens (citizens will receive notifications)

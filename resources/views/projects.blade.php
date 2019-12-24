@@ -11,7 +11,7 @@
                     <nav class="breadcrumb-container d-none d-sm-block d-lg-inline-block" aria-label="breadcrumb">
                         <ol class="breadcrumb pt-0">
                             <li class="breadcrumb-item">
-                                <a href="#">Dashboard</a>
+                                <a href="#">State link</a>
                             </li>
                             <li class="breadcrumb-item active" aria-current="page">Propositions</li>
                         </ol>
