@@ -89,7 +89,6 @@ class PropositionController extends Controller
                 $category->score = $score;
             }
             $categories = $categories->toArray();
-            dd($categories);
             $id = $categories[0]['id'];
             $max_score = $categories[0]['score'];
             foreach ($categories as $category){
